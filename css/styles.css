@@ -104,6 +104,16 @@ ul{  padding-left: 0;
     gap: 40px;
 }
 
+.header-contacts{
+    align-items: center;
+    justify-content: center;
+}
+.icon-header{
+    margin-right: 10px;
+    
+}
+
+
 .logo-header {
     margin-right: 93px;
     font-family: 'Raleway' , sans-serif;
@@ -125,8 +135,6 @@ ul{  padding-left: 0;
 .link-list .link-items:focus{
    color: var(--accent-color);
 }
-
-
 
 .link-list .link-items{
     font-weight: 500;
@@ -166,8 +174,6 @@ ul{  padding-left: 0;
     padding: 94px 0 94px 0 ;
  }
 
- 
-
 .hero{
     padding: 200px 0 200px;
     text-align: center;
@@ -179,6 +185,7 @@ ul{  padding-left: 0;
     background-repeat: no-repeat;
     max-width: 1600px;
     margin: 0 auto;
+    margin-bottom: 21px;
 }
 
 .hero-title{
@@ -225,7 +232,28 @@ ul{  padding-left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+ }
 
+ .edge{
+    padding: 0 0 154px;
+ }
+ .icon-box{
+    width: 270px;
+    height: 120px;
+    background-color: var(--gray-background);
+    padding: 25px 100px;
+    border-radius: 4px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+ }
+
+ .icon-items{
+    background-color: var(--gray-background);
+    
  }
  .edge-elem{
     width: 270px;
@@ -411,6 +439,8 @@ color: #2F303A;
 padding: 20px 24px 20px ;
 
 }
+
+
 
 /*-------FOOTER------*/
 
