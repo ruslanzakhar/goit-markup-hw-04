@@ -181,7 +181,7 @@ ul{  padding-left: 0;
 .hero{
     padding: 200px 0 200px;
     text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/back_header.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/back_header.jpg);
     background-color: var(--second-color);
     background-color: #2F303A;
     background-position: center;
