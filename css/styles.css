@@ -332,7 +332,8 @@ header {
      fill: var(--icon-soc-color);
 }
 
- .team-soc-link:hover{
+ .team-soc-link:hover,
+ .team-soc-link:focus{
    fill: var(--main-color); 
    background: var(--accent-color);
 }
@@ -443,8 +444,7 @@ border-right:1px solid var(--gray-background);
 border-left: 1px solid var(--gray-background);
 }
 
-.icon-box-clients {
-    
+.icon-box-clients {   
     width: 170px;
     height: 92px;
 } 
@@ -454,15 +454,7 @@ margin-right: 30px;
 }
 
 
-.icon-box-clients:hover,
-.icon-box-clients:focus{
-    fill: var(--accent-color);
-    border:1px solid var(--accent-color);
-    border-radius: 4px;
-}
-
 .clients-link{
-   
     display: flex;
     justify-content:center;
     align-items:center;
@@ -473,15 +465,15 @@ margin-right: 30px;
     width: 100%;
     height: 100%;
     border: 1px solid #AFB1B8 ;
-     cursor: pointer;
-     fill: #afb1b8;  
+    cursor: pointer;
+    fill: #afb1b8;  
     
 }
 
 .clients-link:hover,
 .clients-link:focus{   
 fill: var(--accent-color);
-border: var(--accent-color);
+border-color: var(--accent-color);
 }
 
  .icon-items{
